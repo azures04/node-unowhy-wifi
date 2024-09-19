@@ -1,5 +1,5 @@
 {
-  "name": "node-unowhy-wifi",
+  "name": "@azures04/node-unowhy-wifi",
   "version": "0.0.1-alpha",
   "description": "a simple port of STY1001 Unowhy-Tools-Wifi",
   "main": "lib/main.js",
@@ -10,5 +10,32 @@
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.6.6"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azures04/node-unowhy-wifi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azures04/node-unowhy-wifi/issues"
+  },
+  "homepage": "https://github.com/azures04/node-unowhy-wifi#readme",
+  "keywords": [
+    "unowhy",
+    "wifi",
+    "y13",
+    "hisqool",
+    "mdm",
+    "hisqool",
+    "manager",
+    "unowhy-y13",
+    "île",
+    "de",
+    "france",
+    "idf",
+    "geoloc"
+  ]
 }
