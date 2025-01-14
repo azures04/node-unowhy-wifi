@@ -9,13 +9,14 @@ Un port un peu plus poussé de https://github.com/STY1001/Unowhy-Tools-Wifi sous
 
 | Nom | Paramètre(s)     | Description                |
 | :-------- | :------- | :------------------------- |
-| `getWiFiInfoBySerialNumber` | `Serial Number <string>` | Cette fonction permet de récupéré à partir du numéro de série de votre ordinateur Y13 Unowhy fourni par la région Île-de-France  |
+| `getWiFiInfoBySerialNumber` | `Serial Number <string>` | *⚠ ATTENTION : Fonction déprécié* Cette fonction permet de récupéré à partir du numéro de série de votre ordinateur Y13 Unowhy fourni par la région Île-de-France  |
 | `getWifiInfoByPos` | `Lat <int>, lon <int>` | Cette fonction permet de récupéré à partir d'une position GPS l'UAI d'un/plusieurs établissement(s) et ainsi par la suite de récupéré(s) les informations liées au réseau de ceux-cu  |
 | `getWiFiInfoByUAI` | `UAI <string>` | Cette fonction permet de récupéré à partir de l'UAI de son établissement les informations liées au réseau de celui-ci  |
 
 
 ## Exemples
-### getWifiInfoByPos
+### getWiFiInfoBySerialNumber
+#### ⚠ ATTENTION : Fonction déprécié
 ```js
 const UnowhyWifi = require("node-unowhy-wifi")
 
@@ -122,7 +123,7 @@ Réponse (JSON)
     }
 ]
 ```
-### getWifiInfoByPos
+### getWiFiInfoByUAI
 ```js
 const UnowhyWifi = require("node-unowhy-wifi")
 
